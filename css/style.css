@@ -66,7 +66,7 @@ body {
 /* main*/
 
 main .container {
-    background-color: #CFDEFF;
+    background-color: #C2D5FF;
     border-radius: 20px;
 }
 
@@ -75,14 +75,15 @@ main .container {
 }
 
 .side {
+    background-color: #cfdeff;
     text-align: center;
     padding: 0;
+    border-radius: 20px;
 }
 
 .nav-pills .nav-link {
     color: black;
     padding: 30px;
-    box-shadow: ;
 }
 
 .card {
@@ -109,4 +110,46 @@ main .container {
 
 #formulario {
     padding: 20px;
+}
+
+.form-control {
+    background-color: #E6EEFF;
+}
+
+.form-control:focus {
+    background-color: #E6EEFF;
+}
+
+.nav-pills .nav-link #v-pills-home-tab {
+    border-top-left-radius: 20px;
+}
+
+.cartao {
+    margin-top: 70%;
+}
+
+.img-text {
+    background-image: url(../assets/image_13.png);
+    background-repeat: no-repeat;
+}
+
+#footer {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #142585;
+}
+
+#footer a,
+p,
+h4 {
+    color: #F5F6F7;
+}
+
+#footer ul.navbar {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-img {
+    background-color: #F5F6F7;
 }

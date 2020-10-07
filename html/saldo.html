@@ -2,30 +2,60 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Parcela Aê</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
-    <script src='main.js'></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/saldo-style.css" />
+    <script src="main.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <div class="menu">
-            <img src="../assets/logo.png" alt="Logotipo do Parcela Aê" class="logo">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="../assets/logo.png" alt="Logotipo do Parcela Aê" class="w-75 logo">
+            </a>
 
-            <div class="navbar">
-                <ul class="navbar-items">
-                    <li class="nav-item"><a href="" class="nav-link">Login</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">meus créditos</a></li>
-                    <li class="nav-item"><a href="" class="nav-link bg-rosa">olá, andressa</a></li>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cadastre-se</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-lg pink-bg" href="#">Você é uma clínica?</a>
+                    </li>
                 </ul>
+
             </div>
-        </div>
-    </header>
-    <main id="saldo">
+        </nav>
+    </header>    
+    <main class="saldo">
         <div class="container">
             <div class="row">
                 <div class="col-3 side">
@@ -172,11 +202,11 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h4>links uteis</h4>
+                    <h4>Links úteis</h4>
                     <p>
                         Oferecemos visibilidade direta à clientes reais, agendamento e gestão das consultas, tudo sem nenhuma complicação. Cuide do paciente e nós cuidamos do resto!
+                        <a href="" class="btn btn-lg pink-bg">Saiba Mais</a>
                     </p>
-                    <a href="" class="btn btn-lg bg-rosa">Saiba Mais</a>
                 </div>
                 <div class="col-md-4">
                     <img src="../assets/logo.png" alt="parcelae" class="bg-img">

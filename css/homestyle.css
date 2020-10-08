@@ -5,9 +5,11 @@
   color: #333333;
 }
 
+/*menu*/
+
 .header {
   background: #def7f6;
-  padding: 50px 50px 0 50px;
+  padding: 50px;
 }
 
 .logo {
@@ -17,10 +19,13 @@
 .pink-bg {
   background-color: #ff85ff;
   border-radius: 5px;
-  padding: .2rem 1rem;
+  padding: 0.375rem 1rem;
+  color: #333333;
 }
 
-.row {
+/*header*/
+
+.header-home {
   align-items: center;
 }
 
@@ -41,13 +46,114 @@
   font-weight: lighter;
   font-size: 1.2em;
   width: 70%;
+  color: #333333;
 }
 
-.learn {
+.blue-bg {
   background-color: #142585;
-  color: #F5F6F7;
-  border: none;
+  color: #f5f6f7;
   border-radius: 5px;
-  padding: 0 20px;
+  padding: 0.375rem 1rem;
 }
 
+/*depoimentos*/
+
+.depoimentos {
+  background-color: #3dcecb;
+}
+
+.depoimentos-home {
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.depoimentos-items {
+  background-color: #f5f6f7;
+  height: 320px;
+  margin: 50px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.name {
+  margin-left: 5px;
+}
+
+.depoimento {
+  color: #333333;
+}
+
+.cadastro {
+  text-align: center;
+  color: #333333;
+  padding-bottom: 30px;
+}
+
+.cadastro h4 {
+  text-align: center;
+  color: #333333;
+  font-weight: normal;
+}
+
+/*parceiros*/
+
+.parceiros {
+  background-color: #cfdeff;
+  padding: 60px;
+}
+
+.parceiros-title {
+  margin: 0 0 15px 15px;
+}
+
+.descricao-parceiros {
+  color: #333333;
+}
+
+/*duvidas*/
+
+.duvidas {
+  background-color: #DEF7F6;
+  padding: 60px;
+}
+
+.duvidas-title {
+  margin: 0 0 15px 15px;
+}
+
+.descricao-duvida {
+  font-weight: lighter;
+  color: #333333;
+}
+
+/*footer*/
+
+#footer {
+  padding: 10px;
+  background-color: #142585;
+}
+
+#footer a,
+p,
+h4 {
+  color: #f5f6f7;
+  font-weight: lighter;
+}
+
+#footer ul.navbar {
+  padding: 0px;
+  margin: 0px;
+}
+
+.coluna {
+  margin: 10px 0px;
+}
+
+.rede-social {
+  display: flex;
+}
